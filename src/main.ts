@@ -1,6 +1,42 @@
+import { Component } from '@angular/core';
 import { bootstrapApplication } from '@angular/platform-browser';
-import { appConfig } from './app/app.config';
-import { AppComponent } from './app/app.component';
+import { provideRouter, RouterOutlet } from '@angular/router';
+import { NavbarComponent } from './app/navbar/navbar.component';
+import { HomeComponent } from './app/home/home.component';
+import { FormComponent } from './app/form/form.component';
+import { AboutComponent } from './app/about/about.component';
+import { SantaAnaComponent } from './app/Departamentos/santa-ana/santa-ana.component';
+import { ChalatenangoComponent } from './app/Departamentos/chalatenango/chalatenango.component';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
-bootstrapApplication(AppComponent, appConfig)
-  .catch((err) => console.error(err));
+
+@Component({
+  selector: 'app-root',
+  standalone: true,
+  imports: [RouterOutlet, NavbarComponent,],
+  template: `
+    <app-navbar></app-navbar>
+    
+    <router-outlet></router-outlet>
+  `
+})
+export class App {
+  name = 'Angular';
+}
+
+const routes = [
+  { path: '', component: HomeComponent },
+  { path: 'inicio', component: HomeComponent },
+  { path: 'formulario', component: FormComponent },
+  { path: 'nosotros', component: AboutComponent },
+  { path: 'santa-ana', component: SantaAnaComponent },
+  { path: 'chalatenango', component: ChalatenangoComponent }
+];
+
+
+
+bootstrapApplication(App, {
+  providers: [
+    provideRouter(routes), provideAnimationsAsync()
+  ]
+});

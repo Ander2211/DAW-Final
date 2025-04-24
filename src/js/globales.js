@@ -1,47 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>My Angular App</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <base href="/">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              // Aquí puedes agregar tus colores personalizados
-            }
-          }
-        }
-      }
-    </script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-</head>
-  <body>
-    <app-root>Loading...</app-root>
-    
-    
-    
-
-    <img src="../public/sd.svg" class="m-3" alt="">
-    <footer class="container-fluid text-white text-center py-3 mt-[15rem]">
-      <div class="row">
-          <div class="col-12">
-              <p>© 2025 - Todos los derechos reservados</p>
-          </div>
-      </div>
-  </footer>
-
-
-  <script>
-    /*
+/*
  * JavaScript de la pagina index
  */
 
@@ -165,9 +122,3 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-
-  </script>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
-</html>
