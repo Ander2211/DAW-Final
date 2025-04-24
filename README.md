@@ -1,27 +1,38 @@
 # Catedra
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.11.
+## Para saber que pedo 
+Para ponerlos en contexto vean el video https://youtu.be/f7unUpshmpA?si=Jf_cQ1CaHsq0Xd1S
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## ✅ Requisitos previos
 
-## Build
+### 1. Instalar **Node.js**
+Angular necesita Node.js para funcionar.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Descarga desde: [https://nodejs.org](https://nodejs.org)
+- Instala la **versión LTS** (recomendada).
 
-## Running unit tests
+> 📌 Verifica que la instalación fue exitosa abriendo una terminal y escribiendo:
+```
+node -v
+npm -v 
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Configuración de un Proyecto
 
-## Running end-to-end tests
+Instala Angular CLI globalmente:
+(es para ejecutar el comando de correr la aplicaccion)
+```
+npm install -g @angular/cli
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Correr la aplicacion:
 
-## Further help
+```
+cd [NOMBRE DEL PROYECTO]
+ng serve --open
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
