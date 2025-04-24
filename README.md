@@ -19,6 +19,7 @@ Angular necesita Node.js para funcionar.
 node -v
 npm -v 
 ```
+veance un video de como instalar node.js puede dar errores
 
 ### Configuración de un Proyecto
 
