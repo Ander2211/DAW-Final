@@ -5,8 +5,8 @@ import { NavbarComponent } from './app/navbar/navbar.component';
 import { HomeComponent } from './app/home/home.component';
 import { FormComponent } from './app/form/form.component';
 import { AboutComponent } from './app/about/about.component';
-import { SantaAnaComponent } from './app/Departamentos/santa-ana/santa-ana.component';
-import { ChalatenangoComponent } from './app/Departamentos/chalatenango/chalatenango.component';
+import { SantaAnaComponent } from './app/Departamentos/santa-ana.component';
+import { ChalatenangoComponent } from './app/Departamentos/chalatenango.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
 
@@ -30,7 +30,7 @@ const routes = [
   { path: 'formulario', component: FormComponent },
   { path: 'nosotros', component: AboutComponent },
   { path: 'santa-ana', component: SantaAnaComponent },
-  { path: 'chalatenango', component: ChalatenangoComponent }
+  { path: 'chalate', component: ChalatenangoComponent }
 ];
 
 

@@ -19,7 +19,7 @@ import { FormsModule } from '@angular/forms';
       <label for="message">Mensaje:</label>
       <textarea id="message" name="message" required></textarea>
       <br />
-      <button type="submit">Enviar</button>
+      <button type="submit" class="hover:text-white w-50 p-2">Enviar</button>
     </form>
   `,
 })

@@ -28,7 +28,7 @@ import { RouterLink } from '@angular/router';
       <li class="itemMenu">
           <a href="#">Zona Central</a>
           <ul class="segundo-nivel">
-              <li class="subElemento"><a href="departamentos/chalatenango.html">Chalatenango</a></li>
+              <li class="subElemento"><a href="/chalate">Chalatenango</a></li>
               <li class="subElemento"><a href="departamentos/cuscatlan.html">Cuscatlán</a></li>
               <li class="subElemento"><a href="departamentos/cabañas.html">Cabañas</a></li>
               <li class="subElemento"><a href="departamentos/la-libertad.html">La Libertad</a></li>
@@ -40,7 +40,7 @@ import { RouterLink } from '@angular/router';
       <li class="itemMenu">
           <a href="#">Zona Oriental</a>
           <ul class="segundo-nivel">
-              <li class="subElemento"><a href="/formulario">Morazán</a></li>
+              <li class="subElemento"><a href="">Morazán</a></li>
               <li class="subElemento"><a href="departamentos/la-union.html">La Unión</a></li>
               <li class="subElemento"><a href="departamentos/san-miguel.html">San Miguel</a></li>
               <li class="subElemento"><a href="departamentos/usulutan.html">Usulután</a></li>

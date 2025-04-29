@@ -77,7 +77,7 @@ function ajustarMenu() {
 //pagina de creadores
 document.addEventListener("DOMContentLoaded", function () {
     const sections = [
-        { id: 1, title1: 'Bryan Peña - Investigador / Desarrollador', image1Src: 'img/integrantes/Bryan.jpg' },
+        { id: 1, title1: 'Bryan Peña - Investigador / Desarrollador', image1Src: 'Bryan.jpg' },
         { id: 2, title1: 'Guillermo Hernández - Investigador / Desarrollador', image1Src: 'img/integrantes/Guille.jpg' },
         { id: 3, title1: 'Yassir Meléndez - Investigador / Desarrollador', image1Src: 'img/integrantes/Yassir.jpg' },
         { id: 4, title1: 'Anderson Hernández - Investigador / Desarrollador', image1Src: 'img/integrantes/Anderson.jpg' },
