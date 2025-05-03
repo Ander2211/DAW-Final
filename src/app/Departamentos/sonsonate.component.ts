@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
         <h2 id="nombreDept" class="pacific-cyan">Sonsonate</h2>
         
         <article><!--Información general y municipios-->
-            <img src="../img/Departamentos/sonso54.png" id="imgDept">
+            <img src="assets/departamentos/sonso54.png" id="imgDept">
             <p>Sonsonate es uno de los destinos para hacer turismo religioso, por su solemnidad y fervor durante la Semana Santa. 
                 Su importancia cultural es tal que en 2013 la Asamblea Legislativa declaró la Semana Santa Sonsonateca como parte del 
                 Patrimonio Cultural Religioso del país.</p>
@@ -52,7 +52,7 @@ import { Component } from '@angular/core';
             <section>
                 <div class="turismo">
                     <h4 class="titulo-n3 vivid-sky-blue">Nahuizalco</h4>
-                    <img src="../img/Sonsonate/Nahuizalco.jpg">
+                    <img src="assets/Sonsonate/Nahuizalco.jpg">
                 </div>
                 <p>¡Nahuizalco, destino de historia y artesanías!
                     <br>
@@ -74,7 +74,7 @@ import { Component } from '@angular/core';
             <section>
                 <div class="turismo">
                     <h4 class="titulo-n3 vivid-sky-blue">Acajutla</h4>
-                    <img src="../img/Sonsonate/Acajutla.jpg">
+                    <img src="assets/Sonsonate/Acajutla.jpg">
                 </div>
                 <p>Acajutla es un activo municipio, y el principal Puerto marítimo industrial de El Salvador. Está ubicado en el departamento occidental de Sonsonate.</p>
 
@@ -95,13 +95,13 @@ import { Component } from '@angular/core';
 
                 <p>Hacia el occidente del muelle industrial de Acajutla también existen playas donde se puede practicar el surf, aunque son más adecuadas para hacer body surf.</p>
 
-                <p>La Bocana es un “beach break” o rompiente de playa, ubicado al costado occidental del muelle artesanal de Acajutla. Por lo tanto rompe hacia la izquierda y 
+                <p>La Bocana es un "beach break" o rompiente de playa, ubicado al costado occidental del muelle artesanal de Acajutla. Por lo tanto rompe hacia la izquierda y 
                     derecha, y sus características son rapidez, línea corta, tubular y cierres abruptos.</p>
 
                 <p>En días de fuertes marejadas, el muelle artesanal produce una ola izquierda larga, lenta y amable, idónea para correrla en una tabla larga o en un SUP; si 
-                    bien hay que evitar conectar con el “beach break” para evitar un cierre peligroso.</p>
+                    bien hay que evitar conectar con el "beach break" para evitar un cierre peligroso.</p>
 
-                <p>Luego de La Bocana está playa La Pilsener, otro “beach break” o rompiente de playa, menos tubular, pero siempre rápida y empinada. Solo rompe en mareas medias.</p>
+                <p>Luego de La Bocana está playa La Pilsener, otro "beach break" o rompiente de playa, menos tubular, pero siempre rápida y empinada. Solo rompe en mareas medias.</p>
 
                 <p>Por ser una ciudad portuaria, la zona general de Acajutla tiene un buen nivel de desarrollo, y, por ende, muchos servicios para el visitante. 
                     Hay numerosos hoteles, algunos de playa, casas para rentar; así como restaurantes, bares y otras atracciones. También existe buena conectividad.</p>
@@ -113,7 +113,7 @@ import { Component } from '@angular/core';
             <section>
                 <div class="turismo">
                     <h4 class="titulo-n3 vivid-sky-blue">Los Cóbanos</h4>
-                    <img src="../img/Sonsonate/Los-Cobanos.jpg">
+                    <img src="assets/Sonsonate/Los-Cobanos.jpg">
                 </div>
                 <p>Los Cóbanos es una pequeña comunidad de pescadores en la costa del occidental departamento de Sonsonate, ubicada a 11 kilómetros al oriente del 
                     municipio y Puerto de Acajutla.</p>
@@ -129,7 +129,7 @@ import { Component } from '@angular/core';
                     que crean olas pequeñas pero consistentes, ideales para práctica del SUP surf, o para hacer remo en tabla.</p>
 
                 <p>Menos conocidas son algunas formaciones rocosas, a unos 800 metros de la orilla, que en días de grandes marejadas producen olas del tipo 
-                    conocido como “outer reef”, y que pueden llegar a medir hasta 10 pies de altura (3.5 metros), y que desaparecen al encontrar agua más profunda, 
+                    conocido como "outer reef", y que pueden llegar a medir hasta 10 pies de altura (3.5 metros), y que desaparecen al encontrar agua más profunda, 
                     tras correr unos 200 metros. A estos lugares se puede solo acceder en lancha y bajo la orientación de una guía local.</p>
 
                 <p>Entre noviembre y febrero la zona es ideal para practicar el buceo con tanque, ya que existen decenas de arrecifes volcánicos y algunos naufragios, 
@@ -153,7 +153,7 @@ import { Component } from '@angular/core';
             <section>
                 <div class="turismo">
                     <h4 class="titulo-n3 vivid-sky-blue">Salinitas</h4>
-                    <img src="../img/Sonsonate/Salinitas.jpg">
+                    <img src="assets/Sonsonate/Salinitas.jpg">
                 </div>
                 <p>Arena grisácea, áreas rocosas y arrecifes hacen a esta playa una de las más destacadas de la zona occidental del país. Si bien, su actividad principal 
                     es el buceo o esnórquel, pueden realizarse otro tipo de actividades tales como kayak, viajes en lancha, disfrutar de un bronceado en su cálida arena, 
@@ -166,7 +166,7 @@ import { Component } from '@angular/core';
             <section>
                 <div class="turismo">
                     <h4 class="titulo-n3 vivid-sky-blue">Metalío</h4>
-                    <img src="../img/Sonsonate/Metalio.jpg">
+                    <img src="assets/Sonsonate/Metalio.jpg">
                 </div>
                 <p>Una de las playas más visitadas en la zona por su vista espectacular hacia el mar y su amplia vegetación es Metalío. Su cercanía con el Puerto de 
                     Acajutla hace que este destino tenga una gran variedad de ofertas de servicios turísticos.</p>
@@ -186,7 +186,7 @@ import { Component } from '@angular/core';
             <section>
                 <h4 class="titulo-n3 vivid-sky-blue">Volcanes</h4>
                 <div class="geografia">
-                    <img src="../img/Sonsonate/Volcan-Izalco.jpg" class="img-geo">
+                    <img src="assets/Sonsonate/Volcan-Izalco.jpg" class="img-geo">
                     <p class="info-geo">
                         Volcán de Izalco
                         <br>
@@ -206,7 +206,7 @@ import { Component } from '@angular/core';
             <section>
                 <h4 class="titulo-n3 vivid-sky-blue">Ríos</h4>
                 <div class="geografia">
-                    <img src="../img/Sonsonate/Rio-sensunapan.jpg" class="img-geo">
+                    <img src="assets/Sonsonate/Rio-sensunapan.jpg" class="img-geo">
                     <p class="info-geo">
                         Río Sensunapan (Río grande de Sonsonate)
                         <br>
@@ -228,13 +228,13 @@ import { Component } from '@angular/core';
                         Francisco Menéndez, en el departamento de Ahuachapán. La cuenca del río Paz tiene una superficie de 1732 km² en Guatemala 
                         y 929 km² en El Salvador la profundidad del río Paz es de siete metros.
                     </p>
-                    <img src="../img/Sonsonate/Rio-paz.jpg" class="img-geo">
+                    <img src="assets/Sonsonate/Rio-paz.jpg" class="img-geo">
                 </div>
             </section>
             <section>
                 <h4 class="titulo-n3 vivid-sky-blue">Cerros</h4>
                 <div class="geografia">
-                    <img src="../img/Sonsonate/Cerro-Aguila.jpg" class="img-geo">
+                    <img src="assets/Sonsonate/Cerro-Aguila.jpg" class="img-geo">
                     <p class="info-geo">
                         Cerro El Águila
                         <br>
@@ -265,12 +265,12 @@ import { Component } from '@angular/core';
             <section>
                 <h4 class="titulo-n3 vivid-sky-blue">Salvador Salazar Arrué (Salarrué)</h4>
                 <div class="personajes row">
-                    <img src="../img/Sonsonate/Salarrue-1.jpg" class="img-persona">
-                    <img src="../img/Sonsonate/Salarrue-2.jpg" class="img-persona">
-                    <img src="../img/Sonsonate/Salarrue-3.webp" class="img-persona">
+                    <img src="assets/Sonsonate/Salarrue-1.jpg" class="img-persona">
+                    <img src="assets/Sonsonate/Salarrue-2.jpg" class="img-persona">
+                    <img src="assets/Sonsonate/Salarrue-3.webp" class="img-persona">
                 </div>
                 <p>
-                    Más conocido por su seudónimo “Salarrué”. Nació en Sonsonate, el 22 de octubre de 1899, y murió en San Salvador el 27 de noviembre de 1975. 
+                    Más conocido por su seudónimo "Salarrué". Nació en Sonsonate, el 22 de octubre de 1899, y murió en San Salvador el 27 de noviembre de 1975. 
                     Poeta, pintor y escritor, ha sido considerado el máximo exponente de la narrativa cuzcatleca.
                 </p>
 
@@ -280,7 +280,7 @@ import { Component } from '@angular/core';
             <section>
                 <h4 class="titulo-n3 vivid-sky-blue">Rafael Campos</h4>
                 <div class="personajes row">
-                    <img src="../img/Sonsonate/Rafael-Campos.jpg" class="img-persona">
+                    <img src="assets/Sonsonate/Rafael-Campos.jpg" class="img-persona">
                 </div>
                 <p>
                     Nació en Sonsonate el 24 de octubre de 1813, y murió en el Puerto de Acajutla el 1 de marzo de 1890. Presidente de la República de 
@@ -292,8 +292,8 @@ import { Component } from '@angular/core';
             <section>
                 <h4 class="titulo-n3 vivid-sky-blue">Oscar Osorio</h4>
                 <div class="personajes row">
-                    <img src="../img/Sonsonate/Oscar-1.jpg" class="img-persona">
-                    <img src="../img/Sonsonate/Oscar-2.jpg" class="img-persona">
+                    <img src="assets/Sonsonate/Oscar-1.jpg" class="img-persona">
+                    <img src="assets/Sonsonate/Oscar-2.jpg" class="img-persona">
                 </div>
                 <p>
                     El teniente coronel Óscar Osorio, nació en la Ciudad de Sonsonate, el 14 de diciembre de 1910.
@@ -311,13 +311,13 @@ import { Component } from '@angular/core';
             <section>
                 <h4 class="titulo-n3 vivid-sky-blue">Pancho Lara</h4>
                 <div class="personajes row">
-                    <img src="../img/Sonsonate/Pancho-Lara.webp" class="img-persona">
+                    <img src="assets/Sonsonate/Pancho-Lara.webp" class="img-persona">
                 </div>
                 <p>
                     El 3 de diciembre de 1900, marcó el inicio de la vida de uno de los cantautores salvadoreños más importantes de El Salvador.
                 </p>
 
-                <p>Su nombre Francisco Antonio Lara Hernández, conocido artísticamente como Pancho Lara, nació en la hacienda “La Presa” 
+                <p>Su nombre Francisco Antonio Lara Hernández, conocido artísticamente como Pancho Lara, nació en la hacienda "La Presa" 
                     jurisdicción de Santa Ana. Posteriormente, fue asentado en la ciudad de Armenia, Sonsonate.</p>
 
                 <p>Sus padres: Capitán Jeremías Lara originario de Santa Ana y Ángela Hernández de Lara, oriunda de San Vicente. 
@@ -336,9 +336,9 @@ import { Component } from '@angular/core';
             <section>
                 <h4 class="titulo-n3 vivid-sky-blue">Margarita del Carmen Brannon Vega (Claudia Lars)</h4>
                 <div class="personajes row">
-                    <img src="../img/Sonsonate/Claudia-Lars-1.jpg" class="img-persona">
-                    <img src="../img/Sonsonate/Claudia-Lars-2.webp" class="img-persona">
-                    <img src="../img/Sonsonate/Claudia-Lars-3.jpg" class="img-persona">
+                    <img src="assets/Sonsonate/Claudia-Lars-1.jpg" class="img-persona">
+                    <img src="assets/Sonsonate/Claudia-Lars-2.webp" class="img-persona">
+                    <img src="assets/Sonsonate/Claudia-Lars-3.jpg" class="img-persona">
                 </div>
                 <p>
                     Conocida por su seudónimo Claudia Lars (Armenia, Sonsonate el 20 de diciembre de 1899 y murió en San Salvador el 22 de julio de 1974). 
