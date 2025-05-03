@@ -391,6 +391,12 @@ div img {
     margin: 20px 0;
 }
 
+.foto img {
+    max-width: none;
+    max-height: none;
+    margin: 0;
+}
+
 div.geografia {
     margin: 20px 0;
     display: flex;
