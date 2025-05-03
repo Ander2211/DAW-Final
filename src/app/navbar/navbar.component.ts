@@ -22,7 +22,7 @@ import { RouterLink } from '@angular/router';
           <ul class="segundo-nivel">
               <li class="subElemento"><a href="departamentos/ahuachapan.html">Ahuachapán</a></li>
               <li class="subElemento"><a href="/santa-ana">Santa Ana</a></li>
-              <li class="subElemento"><a href="departamentos/sonsonate.html">Sonsonate</a></li>
+              <li class="subElemento"><a href="/sonsonate">Sonsonate</a></li>
           </ul>
       </li>
       <li class="itemMenu">
@@ -34,7 +34,7 @@ import { RouterLink } from '@angular/router';
               <li class="subElemento"><a href="departamentos/la-libertad.html">La Libertad</a></li>
               <li class="subElemento"><a href="departamentos/la-paz.html">La Paz</a></li>
               <li class="subElemento"><a href="departamentos/san-vicente.html">San Vicente</a></li>
-              <li class="subElemento"><a href="departamentos/san-salvador.html">San Salvador</a></li>
+              <li class="subElemento"><a href="/salvador">San Salvador</a></li>
           </ul>
       </li>
       <li class="itemMenu">

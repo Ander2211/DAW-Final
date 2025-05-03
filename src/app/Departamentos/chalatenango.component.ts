@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
   <h2 id="nombreDept" class="pacific-cyan">Chalatenango</h2>
   
   <article><!--Información general y municipios-->
-      <img src="departamentos/chalate.png" id="imgDept">
+      <img src="assets/departamentos/chalate.png" id="imgDept">
       <p>Chalatenango es donde el verde de las montañas se encuentra con la calidez de su gente. 
           Es conocido por su clima fresco, ideal para el cultivo de café y hortalizas, y por sus 
           paisajes naturales impresionantes.</p>
@@ -65,7 +65,7 @@ import { Component } from '@angular/core';
       <section>
           <div class="turismo">
               <h4 class="titulo-n3 vivid-sky-blue">Mirador El Alto</h4>
-              <img src="../img/Chalatenango/miradorelalto.jpg">
+              <img src="assets/Chalatenango/miradorelalto.jpg">
           </div>
           <p>Mirador turístico con vistas impresionantes de montañas y valles de Chalatenango.</p>
       </section>
@@ -75,7 +75,7 @@ import { Component } from '@angular/core';
       <section>
           <h4 class="titulo-n3 vivid-sky-blue">Lagos</h4>
           <div class="geografia">
-              <img src="../img/Chalatenango/lago-suchitlan-1.jpg" class="img-geo">
+              <img src="assets/Chalatenango/lago-suchitlan-1.jpg" class="img-geo">
               <p class="info-geo">
                   Lago Suchitlán
                   <br>
@@ -86,7 +86,7 @@ import { Component } from '@angular/core';
       <section>
           <h4 class="titulo-n3 vivid-sky-blue">Cerros</h4>
           <div class="geografia">
-              <img src="../img/Chalatenango/cerro-el-pital-1.jpg" class="img-geo">
+              <img src="assets/Chalatenango/cerro-el-pital-1.jpg" class="img-geo">
               <p class="info-geo">
                   Cerro El Pital
                   <br>
@@ -100,13 +100,13 @@ import { Component } from '@angular/core';
                   <br>
                   Elevación de 1,500 m con senderos y paisajes rurales, conocido por sus vistas panorámicas.
               </p>
-              <img src="../img/Chalatenango/cerroEramon-1.png" class="img-geo">
+              <img src="assets/Chalatenango/cerroEramon-1.png" class="img-geo">
           </div>
       </section>
       <section>
           <h4 class="titulo-n3 vivid-sky-blue">Ríos</h4>
           <div class="geografia">
-              <img src="../img/Chalatenango/rio-sumplul-2.jpg" class="img-geo">
+              <img src="assets/Chalatenango/rio-sumplul-2.jpg" class="img-geo">
               <p class="info-geo">
                   Río Sumpul
                   <br>
@@ -120,7 +120,7 @@ import { Component } from '@angular/core';
       <section>
           <h4 class="titulo-n3 vivid-sky-blue">Miguel Mármol</h4>
           <div class="personajes row">
-              <img src="../img/Chalatenango/miguelMarmol.jpg" class="img-persona">
+              <img src="assets/Chalatenango/miguelMarmol.jpg" class="img-persona">
           </div>
           <p>
               Líder sindical y figura emblemática del movimiento obrero salvadoreño. Sobrevivió 

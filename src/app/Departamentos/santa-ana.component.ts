@@ -9,8 +9,8 @@ import { Component } from '@angular/core';
         <h2 id="nombreDept" class="pacific-cyan">Santa Ana</h2>
         
         <article><!--Información general y municipios-->
-            <img src="../img/Departamentos/santana53.png" id="imgDept">
-            <p>Conocida como “La Ciudad Morena”, “Ciudad Heroica”, “Capital del Mundo” y “Sucursal del Cielo” por considerarse una 
+            <img src="assets/departamentos/santana53.png" id="imgDept">
+            <p>Conocida como "La Ciudad Morena", "Ciudad Heroica", "Capital del Mundo" y "Sucursal del Cielo" por considerarse una 
                 de los lugares más importantes y distinguidos de El Salvador.</p>
             <p>Su centro histórico es uno de los mejores de Centroamérica, la ubicación casi perfecta de sus edificios alrededor del 
                 parque Libertad, le han dado ese reconocimiento. Si visitas la Ciudad Morena, no puedes dejar de ir a la Catedral de Santa Ana, 
@@ -45,7 +45,7 @@ import { Component } from '@angular/core';
             <section>
                 <div class="turismo">
                     <h4 class="titulo-n3 vivid-sky-blue">El Tazumal</h4>
-                    <img src="../img/Santa Ana/El-Tazumal.jpg">
+                    <img src="assets/Santa Ana/El-Tazumal.jpg">
                 </div>
                 <p>Está ubicado en el corazón de Chalchuapa, departamento de Santa Ana, a 80 kilómetros al occidente de la capital.</p>
                 <p>
@@ -69,7 +69,7 @@ import { Component } from '@angular/core';
             <section>
                 <div class="turismo">
                     <h4 class="titulo-n3 vivid-sky-blue">Casa Blanca</h4>
-                    <img src="../img/Santa Ana/Casa-Blanca.jpg">
+                    <img src="assets/Santa Ana/Casa-Blanca.jpg">
                 </div>
                 <p>
                     Casa Blanca tiene un área de 6 hectáreas, la cual representa un fragmento de un sitio mucho mayor, ahora en gran parte destruido debido al crecimiento de la ciudad de Chalchuapa.
@@ -102,7 +102,7 @@ import { Component } from '@angular/core';
             <section>
                 <h4 class="titulo-n3 vivid-sky-blue">Lagos</h4>
                 <div class="geografia">
-                    <img src="../img/Santa Ana/Lago-Coatepeque.jpg" class="img-geo">
+                    <img src="assets/Santa Ana/Lago-Coatepeque.jpg" class="img-geo">
                     <p class="info-geo">
                         Lago de Coatepeque
                         <br>
@@ -120,7 +120,7 @@ import { Component } from '@angular/core';
             <section>
                 <h4 class="titulo-n3 vivid-sky-blue">Volcanes</h4>
                 <div class="geografia">
-                    <img src="../img/Santa Ana/Ilamatepec-Volcan.jpg" class="img-geo">
+                    <img src="assets/Santa Ana/Ilamatepec-Volcan.jpg" class="img-geo">
                     <p class="info-geo">
                         Volcán de Santa Ana (Ilamatepec)
                         <br>
@@ -151,20 +151,20 @@ import { Component } from '@angular/core';
             <section>
                 <h4 class="titulo-n3 vivid-sky-blue">Cerros</h4>
                 <div class="geografia">
-                    <img src="../img/Santa Ana/Cerro-Verde.jpg">
+                    <img src="assets/Santa Ana/Cerro-Verde.jpg">
                     <p class="info-geo">
                         Parque Recerativo Cerro Verde
                         <br>
-                        Cuntetepeque, es el nombre en náhuat del Cerro Verde y significa “Cerro de nubes o brumas”. Se ubica en el departamento de Santa Ana, a 77 kilómetros de San Salvador, 
+                        Cuntetepeque, es el nombre en náhuat del Cerro Verde y significa "Cerro de nubes o brumas". Se ubica en el departamento de Santa Ana, a 77 kilómetros de San Salvador, 
                         a una distancia aproximada de 1 hora y 40 minutos en automóvil desde El Salvador del Mundo.
                         <br>
-                        Fue fundado por don Raúl Contreras y abierto al público en el año de 1955, formando parte del “Complejo Los Volcanes” y establecido como un área prioritaria para la 
+                        Fue fundado por don Raúl Contreras y abierto al público en el año de 1955, formando parte del "Complejo Los Volcanes" y establecido como un área prioritaria para la 
                         conservación del medio ambiente en El Salvador.
                         <br>
-                        El Cerro Verde cuenta con una extensión de 54 manzanas donde se ubican los senderos interpretativos: “Las Flores Misteriosas” y “Una ventana a la naturaleza”; 
+                        El Cerro Verde cuenta con una extensión de 54 manzanas donde se ubican los senderos interpretativos: "Las Flores Misteriosas" y "Una ventana a la naturaleza"; 
                         atractivos turísticos que puedes disfrutar al visitar el lugar, además de apreciar la biodiversidad de flora y fauna.
                         <br>
-                        También, encuentras el “Hotel de Montaña” administrado por Casa 1800.
+                        También, encuentras el "Hotel de Montaña" administrado por Casa 1800.
                         <br>
                         Las caminatas a los volcanes de Izalco (con una altura de 1,980 msnm) y el volcán de Santa Ana conocido como Ilamatepec (que tiene una altura de 2,381 msnm), 
                         son opciones turísticas que llaman la atención de los más intrépidos y amantes de las experiencias al aire libre, que disfrutan poner a prueba sus habilidades físicas.
@@ -183,19 +183,19 @@ import { Component } from '@angular/core';
             <section>
                 <h4 class="titulo-n3 vivid-sky-blue">Tomás Regalado</h4>
                 <div class="personajes row">
-                    <img src="../img/Santa Ana/Toma-Regalado.jpg" class="img-persona">
+                    <img src="assets/Santa Ana/Toma-Regalado.jpg" class="img-persona">
                 </div>
                 <p>
                     Nació el 7 de noviembre de 1861 en Santa Ana y murió como un héroe en la batalla del jícaro en Guatemala, 
                     el 11 de julio de 1906. Fue un militar político salvadoreño, presidente se su país (1898-1903). Regalado 
                     fue uno de los conspiradores que el 29 de abril de 1894 participo en el derrocamiento del gobierno de Carlos Ezeta, 
-                    dentro del movimiento llamado de “los 44”.
+                    dentro del movimiento llamado de "los 44".
                 </p>
             </section>
             <section>
                 <h4 class="titulo-n3 vivid-sky-blue">Pedro José Escalón</h4>
                 <div class="personajes row">
-                    <img src="../img/Santa Ana/Pedro-Jose-Escalon.jpg" class="img-persona">
+                    <img src="assets/Santa Ana/Pedro-Jose-Escalon.jpg" class="img-persona">
                 </div>
                 <p>
                     Nació en Santa Ana el 25 de marzo de 1847 y murió el 6 de septiembre de 1923. Fue un político salvadoreño, 
@@ -206,73 +206,73 @@ import { Component } from '@angular/core';
             <section>
                 <h4 class="titulo-n3 vivid-sky-blue">David Granadino</h4>
                 <div class="personajes row">
-                    <img src="../img/Santa Ana/David-Granadino.png" class="img-persona">
+                    <img src="assets/Santa Ana/David-Granadino.png" class="img-persona">
                 </div>
                 <p>
                     Uno de los músicos más prominentes de El Salvador, nación en Santa Ana el 13 de junio de 1876. Hijo de 
-                    Don Joaquín Chávez y Doña Simona Granadino. Compuso su primer vals conocido como “El Piruli”, su composición 
-                    musical más famosa fue: El vals “Bajo el Almendro”, conocido como un himno de la ciudad Morena. El renombrado maestro murió en su 
+                    Don Joaquín Chávez y Doña Simona Granadino. Compuso su primer vals conocido como "El Piruli", su composición 
+                    musical más famosa fue: El vals "Bajo el Almendro", conocido como un himno de la ciudad Morena. El renombrado maestro murió en su 
                     tierra querida el 22 de agosto de 1933, a la edad de 57 años. En el parque la libertad se encuentra un monumento al notable compositor.
                 </p>
             </section>
             <section>
                 <h4 class="titulo-n3 vivid-sky-blue">David Escobar Galindo</h4>
                 <div class="personajes row">
-                    <img src="../img/Santa Ana/David-Escobar-1.webp" class="img-persona">
-                    <img src="../img/Santa Ana/David-Escobar-2.webp" class="img-persona">
-                    <img src="../img/Santa Ana/David-Escobar-3.jpg" class="img-persona">
+                    <img src="assets/Santa Ana/David-Escobar-1.webp" class="img-persona">
+                    <img src="assets/Santa Ana/David-Escobar-2.webp" class="img-persona">
+                    <img src="assets/Santa Ana/David-Escobar-3.jpg" class="img-persona">
                 </div>
                 <p>
                     Nació en Santa Ana en 1943. Es uno de los poetas más lúcidos y discutidos de la actualidad. Su poesía es vigorosa, vital y rica en contenidos humanos.
                 </p>
                 <p>
-                    Fue condecorado por el Gobierno de Francia con el premio “Caballero en la Orden de las Artes y las Letras” en 1989.
+                    Fue condecorado por el Gobierno de Francia con el premio "Caballero en la Orden de las Artes y las Letras" en 1989.
                 </p>
                 <p>
-                    Algunas de sus obras son “El bronce y la esperanza”, “La estación luminosa”, “Historias sin cuento”, “Una grieta en el agua” (novela) y 
-                    “Prueba de fuego”, así como muchas fábulas.
+                    Algunas de sus obras son "El bronce y la esperanza", "La estación luminosa", "Historias sin cuento", "Una grieta en el agua" (novela) y 
+                    "Prueba de fuego", así como muchas fábulas.
                 </p>
             </section>
             <section>
                 <h4 class="titulo-n3 vivid-sky-blue">Miguel Ángel Espino</h4>
                 <div class="personajes row">
-                    <img src="../img/Santa Ana/Miguel-Angel-Espino.jpg" class="img-persona">
+                    <img src="assets/Santa Ana/Miguel-Angel-Espino.jpg" class="img-persona">
                 </div>
                 <p>
                     Nació en Santa Ana en 1902 y murió en 1965. Es uno de los escritores más reconocidos del país. Cultivó la prosa lírica y el género periodístico.
                 </p>
                 <p>
-                    Siendo aún muy joven publica “Mitología de Cuscatlán”, recreación poética de mitos y leyendas pipiles en la que aboga por el arte indígena. 
-                    Otras de sus obras son “Trenes”, “Hombres contra la muerte” y “Como cantan allá”.
+                    Siendo aún muy joven publica "Mitología de Cuscatlán", recreación poética de mitos y leyendas pipiles en la que aboga por el arte indígena. 
+                    Otras de sus obras son "Trenes", "Hombres contra la muerte" y "Como cantan allá".
                 </p>
             </section>
             <section>
                 <h4 class="titulo-n3 vivid-sky-blue">Álvaro Menéndez Leal</h4>
                 <div class="personajes row">
-                    <img src="../img/Santa Ana/Alvaro-Menendez-1.jpg" class="img-persona">
-                    <img src="../img/Santa Ana/Alvaro-Menendez-2.webp" class="img-persona">
-                    <img src="../img/Santa Ana/Alvaro-Menendez-3.jpg" class="img-persona">
+                    <img src="assets/Santa Ana/Alvaro-Menendez-1.jpg" class="img-persona">
+                    <img src="assets/Santa Ana/Alvaro-Menendez-2.webp" class="img-persona">
+                    <img src="assets/Santa Ana/Alvaro-Menendez-3.jpg" class="img-persona">
                 </div>
                 <p>
-                    Nació en Santa Ana en 1931. Formó parte de la “Generación comprometida” en 1950.
+                    Nació en Santa Ana en 1931. Formó parte de la "Generación comprometida" en 1950.
                 </p>
                 <p>
-                    Obtuvo el primer premio hispanoamericano en la rama de teatro con “Luz negra”.
+                    Obtuvo el primer premio hispanoamericano en la rama de teatro con "Luz negra".
                 </p>
                 <p>
-                    Sus obras son “Cuentos breves y maravillosos”, “Una cuerda de nylon y oro”, “Teatro inútil” y “Es lícito matar al tirano”.
+                    Sus obras son "Cuentos breves y maravillosos", "Una cuerda de nylon y oro", "Teatro inútil" y "Es lícito matar al tirano".
                 </p>
             </section>
             <section>
                 <h4 class="titulo-n3 vivid-sky-blue">Serafin Quiteño</h4>
                 <div class="personajes row">
-                    <img src="../img/Santa Ana/Serafin-Quiteño-1.jpg" class="img-persona">
-                    <img src="../img/Santa Ana/Serafin-Quiteño-2.webp" class="img-persona">
-                    <img src="../img/Santa Ana/Serafin-Quiteño-3.jpg" class="img-persona">
+                    <img src="assets/Santa Ana/Serafin-Quiteño-1.jpg" class="img-persona">
+                    <img src="assets/Santa Ana/Serafin-Quiteño-2.webp" class="img-persona">
+                    <img src="assets/Santa Ana/Serafin-Quiteño-3.jpg" class="img-persona">
                 </div>
                 <p>
-                    Serafín Quiteño nació en la “Ciudad Morena” en 1906. Fue poeta y periodista. En El Diario de Hoy mantuvo una columna titulada 
-                    “Ventana de colores”, usando el seudónimo de Pedro C. Maravilla. Entre sus obras están “Corasón con s” y “Tórrido sueño”. Murió en 1987.
+                    Serafín Quiteño nació en la "Ciudad Morena" en 1906. Fue poeta y periodista. En El Diario de Hoy mantuvo una columna titulada 
+                    "Ventana de colores", usando el seudónimo de Pedro C. Maravilla. Entre sus obras están "Corasón con s" y "Tórrido sueño". Murió en 1987.
                 </p>
             </section>
         </article>
