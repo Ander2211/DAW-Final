@@ -138,15 +138,9 @@ import { Component } from '@angular/core';
         <section>
           <h4 class="titulo-n3 vivid-sky-blue">Óscar Arnulfo Romero</h4>
           <div class="personajes row">
-            <img src="assets/San Salvador/monsRomero.jpg" class="img-persona" />
-            <img
-              src="assets/San Salvador/monsRomero1.jpg"
-              class="img-persona"
-            />
-            <img
-              src="assets/San Salvador/monsRomero2.jpg"
-              class="img-persona"
-            />
+            <img src="assets/San Salvador/matias3.jpg" class="img-persona" />
+            <img src="assets/San Salvador/matias.jpeg" class="img-persona" />
+            <img src="assets/San Salvador/matias2.jpg" class="img-persona" />
           </div>
           <p>
             José Matías Delgado fue una de las figuras más influyentes en la
@@ -169,8 +163,12 @@ import { Component } from '@angular/core';
             />
           </div>
           <p>
-            Científico, naturalista y fundador del Museo Nacional de El Salvador
-            (hoy MUNA).
+            David Joaquín Guzmán (San Miguel, 15 de agosto de 1843-San Salvador,
+            20 de enero de 1927), mayormente conocido como David J. Guzmán, fue
+            un político, médico y escritor salvadoreño aficionado al estudio de
+            la botánica, la zoología y la arqueología, y quien fundó el Museo
+            Nacional de El Salvador y escribió la Oración a la Bandera
+            Salvadoreña.
           </p>
         </section>
       </article>
