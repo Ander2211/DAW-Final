@@ -24,32 +24,29 @@ interface Departamento {
                     <a [routerLink]="['/']">Inicio</a>
                 </li>
                 <li class="itemMenu">
-                    <a href="javascript:void(0)">Zona Occidental</a>
-                    <ul class="segundo-nivel">
-                        <li class="subElemento"><a [routerLink]="['/departamentos/ahuachapan']">Ahuachapán</a></li>
+                    <a href="javascript:void(0)">Zona Occidental</a>                    <ul class="segundo-nivel">
+                        <li class="subElemento"><a [routerLink]="['/ahuachapan']">Ahuachapán</a></li>
                         <li class="subElemento"><a [routerLink]="['/santa-ana']">Santa Ana</a></li>
                         <li class="subElemento"><a [routerLink]="['/sonsonate']">Sonsonate</a></li>
                     </ul>
                 </li>
                 <li class="itemMenu">
-                    <a href="javascript:void(0)">Zona Central</a>
-                    <ul class="segundo-nivel">
+                    <a href="javascript:void(0)">Zona Central</a>                    <ul class="segundo-nivel">
                         <li class="subElemento"><a [routerLink]="['/chalate']">Chalatenango</a></li>
-                        <li class="subElemento"><a [routerLink]="['/departamentos/cuscatlan']">Cuscatlán</a></li>
-                        <li class="subElemento"><a [routerLink]="['/departamentos/cabanas']">Cabañas</a></li>
-                        <li class="subElemento"><a [routerLink]="['/departamentos/la-libertad']">La Libertad</a></li>
-                        <li class="subElemento"><a [routerLink]="['/departamentos/la-paz']">La Paz</a></li>
-                        <li class="subElemento"><a [routerLink]="['/departamentos/san-vicente']">San Vicente</a></li>
+                        <li class="subElemento"><a [routerLink]="['/cuscatlan']">Cuscatlán</a></li>
+                        <li class="subElemento"><a [routerLink]="['/cabanas']">Cabañas</a></li>
+                        <li class="subElemento"><a [routerLink]="['/la-libertad']">La Libertad</a></li>
+                        <li class="subElemento"><a [routerLink]="['/la-paz']">La Paz</a></li>
+                        <li class="subElemento"><a [routerLink]="['/san-vicente']">San Vicente</a></li>
                         <li class="subElemento"><a [routerLink]="['/salvador']">San Salvador</a></li>
                     </ul>
                 </li>
                 <li class="itemMenu">
-                    <a href="javascript:void(0)">Zona Oriental</a>
-                    <ul class="segundo-nivel">
-                        <li class="subElemento"><a [routerLink]="['/departamentos/morazan']">Morazán</a></li>
-                        <li class="subElemento"><a [routerLink]="['/departamentos/la-union']">La Unión</a></li>
-                        <li class="subElemento"><a [routerLink]="['/departamentos/san-miguel']">San Miguel</a></li>
-                        <li class="subElemento"><a [routerLink]="['/departamentos/usulutan']">Usulután</a></li>
+                    <a href="javascript:void(0)">Zona Oriental</a>                    <ul class="segundo-nivel">
+                        <li class="subElemento"><a [routerLink]="['/morazan']">Morazán</a></li>
+                        <li class="subElemento"><a [routerLink]="['/la-union']">La Unión</a></li>
+                        <li class="subElemento"><a [routerLink]="['/san-miguel']">San Miguel</a></li>
+                        <li class="subElemento"><a [routerLink]="['/usulutan']">Usulután</a></li>
                     </ul>
                 </li>
                 <li class="itemMenu"><a [routerLink]="['/formulario']">Contáctanos</a></li>
@@ -62,22 +59,21 @@ interface Departamento {
         </nav>
     `
 })
-export class NavbarComponent implements OnInit {
-  departamentos: Departamento[] = [
-    { nombre: 'Ahuachapán', url: '/departamentos/ahuachapan' },
+export class NavbarComponent implements OnInit {  departamentos: Departamento[] = [
+    { nombre: 'Ahuachapán', url: '/ahuachapan' },
     { nombre: 'Santa Ana', url: '/santa-ana' },
     { nombre: 'Sonsonate', url: '/sonsonate' },
     { nombre: 'Chalatenango', url: '/chalate' },
-    { nombre: 'Cuscatlán', url: '/departamentos/cuscatlan' },
-    { nombre: 'Cabañas', url: '/departamentos/cabanas' },
-    { nombre: 'La Libertad', url: '/departamentos/la-libertad' },
-    { nombre: 'La Paz', url: '/departamentos/la-paz' },
-    { nombre: 'San Vicente', url: '/departamentos/san-vicente' },
+    { nombre: 'Cuscatlán', url: '/cuscatlan' },
+    { nombre: 'Cabañas', url: '/cabanas' },
+    { nombre: 'La Libertad', url: '/la-libertad' },
+    { nombre: 'La Paz', url: '/la-paz' },
+    { nombre: 'San Vicente', url: '/san-vicente' },
     { nombre: 'San Salvador', url: '/salvador' },
-    { nombre: 'Morazán', url: '/departamentos/morazan' },
-    { nombre: 'La Unión', url: '/departamentos/la-union' },
-    { nombre: 'San Miguel', url: '/departamentos/san-miguel' },
-    { nombre: 'Usulután', url: '/departamentos/usulutan' }
+    { nombre: 'Morazán', url: '/morazan' },
+    { nombre: 'La Unión', url: '/la-union' },
+    { nombre: 'San Miguel', url: '/san-miguel' },
+    { nombre: 'Usulután', url: '/usulutan' }
   ];
 
   sugerencias: Departamento[] = [];
