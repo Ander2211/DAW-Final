@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
         <h2 id="nombreDept" class="pacific-cyan">La Libertad</h2>
         
         <article><!--Información general y municipios-->
-            <img src="assets/Departamentos/libertad.png" id="imgDept">
+            <img src="assets/departamentos/libertad.png" id="imgDept">
             <p>Conocido principalmente por sus playas de clase mundial, La Libertad es el sueño de cualquier surfista. 
                 Pero este departamento no se limita al sol y el mar; también ofrece historia, naturaleza y cultura.</p>
             <h4>Municipios:</h4>

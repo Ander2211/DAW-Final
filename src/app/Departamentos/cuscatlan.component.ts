@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
         <h2 id="nombreDept" class="pacific-cyan">Cuscatlán</h2>
         
         <article><!--Información general y municipios-->
-            <img src="assets/Departamentos/cusca.png" id="imgDept">
+            <img src="assets/departamentos/cusca.png" id="imgDept">
             <p>De población pipil precolombina, su nombre etimológicamente significa “lugar de joyas y collares”.</p>
             <h4>Municipios:</h4>
             <ol class="row">
